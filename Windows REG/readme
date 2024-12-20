@@ -1,0 +1,10 @@
+Der Photo Viewer Enabler greift in die Windows-Registry ein. Er erstellt dort Einträge, aufgrund derer Sie bei bestimmten
+Formaten die Fotoanzeige im Zugriff haben. 
+Konkret legt er im Schlüssel "FileAssociations" Einträge an für BMP, CR2, DIB, GIF, JFIF, JPE, JPEG, JPG, JXR, PNG, TIF, TIFF und WDP. Dasselbe bewerkstelligen Sie alternativ ohne das Tool: 
+
+Starten Sie den Registry-Editor mit Windows-R und regedit und beantworten Sie die Sicherheitsrückfrage der Benutzerkonten-Steuerung mit "Ja". Navigieren Sie mit Doppelklicks oder per Adressleiste zum folgenden Registry-Schlüsselpfad:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations
+
+Erstellen Sie für das JPEG- und das PNG-Format jeweils einen Zeichenfolgen-Eintrag: Rechtsklicken Sie hierfür in den rechten Fensterbereich, danach rufen Sie "Neu > Zeichenfolge" auf. Geben Sie .png für PNG ein. Für JPEG fügen Sie zwei Einträge hinzu, wobei Sie einen .jpg und den anderen .jpeg nennen. Das ist wichtig, wenn Ihnen nicht nur JPG-, sondern auch JPEG-Bilder vorliegen. Klicken Sie die neuen Einträge doppelt an, um deren Eigenschaften zu öffnen. Geben Sie als Wert jeweils PhotoViewer.FileAssoc.Tiff ein und bestätigen Sie.
+Wenn Sie jetzt eine Bilddatei eines eingetragenen Formats doppelt anklicken, fragt Windows nach der gewünschten Viewer-Software. Ebenfalls finden Sie nach einem Rechtsklick auf so ein File im Menü "Öffnen mit" den zuvor fehlenden Windows-Fotoanzeige-Eintrag.
