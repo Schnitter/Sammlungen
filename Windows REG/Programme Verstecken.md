@@ -13,4 +13,4 @@ Hierzu ist lediglich ein kleiner Eingriff in die Windows Registry (Registrierung
 `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall`
 
 ► Eintrag verstecken
-`Neu`,  `DWORD-Wert (32-bit`), Name: "SystemComponent" mit dem Wert 1 erstellen.
+`Neu`,  `DWORD-Wert (32-bit)`, Name: "SystemComponent" mit dem Wert 1 erstellen.
