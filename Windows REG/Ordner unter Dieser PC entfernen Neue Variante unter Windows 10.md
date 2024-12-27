@@ -1,4 +1,4 @@
-#Ordner unter Dieser PC entfernen Neue Variante unter Windows 10
+Ordner unter Dieser PC entfernen Neue Variante unter Windows 10
 
 Microsoft hat unter Windows 10 eine neue Variante eingebaut, um die Ordner Download, Videos, Dokumente, Musik, Bilder und Desktop die unter Dieser PC angezeigt werden zu entfernen.
 
