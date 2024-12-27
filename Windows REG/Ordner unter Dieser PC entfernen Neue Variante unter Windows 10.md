@@ -10,7 +10,7 @@ Und so geht es:
         Oder Regedit in die Suche der Taskleiste eingeben und starten
     Nun zum Pfad: 
 
-    HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\ Explorer\FolderDescriptions\
+'Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace'
 
    Bilder: {0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag
    Video: {35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag
