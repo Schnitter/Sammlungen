@@ -1,4 +1,5 @@
 `
+
 #! /bin/sh
 ################################################## #######
 # THIS FILE IS FOR STARTING AN Call of Duty 1.2 SERVER #
@@ -97,4 +98,5 @@ exit 1
 esac
 
 exit 0
+
 `
