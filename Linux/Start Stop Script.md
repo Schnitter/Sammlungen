@@ -7,7 +7,7 @@ Ein Start/restart/stop script das per shell ausgeführt wird und sogar für so z
 hier der code den ihr in eine leere datei einfügt (ohne endung) wie z.b. "server"
 
 
-`
+```
 #! /bin/sh
 ################################################## #######
 # THIS FILE IS FOR STARTING AN COUNTERSTRIKE 1.6 SERVER #
@@ -100,7 +100,7 @@ esac
 exit 0
 
 ##### EOF #####
-`
+```
 
 per ./server start / stop / restart führt man das gewünschte aus!
 
