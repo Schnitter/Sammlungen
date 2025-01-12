@@ -11,7 +11,7 @@ give @a netherite_chestplate[trim={pattern:wayfinder,material:redstone},custom_n
 
 ### Ultima Hose
 ```
-give @a netherite_leggings[trim={pattern:wayfinder,material:redstone},custom_name='["",{"text":"Ultima-Hose","color":"gold"}]',lore=['["",{"text":"Dieser Gegenstand wurde von ","italic":false,"color":"yellow"},{"text":"Schnitter","italic":false,"color":"gold","underlined":true},{"text":" erstellt.","italic":false,"color":"yellow"}]'],rarity=epic,enchantment_glint_override=false,enchantments={levels:{blast_protection:255,fire_protection:255,mending:1,protection:255,swift_sneak:255,thorns:255,unbreaking:255}},unbreakable={}]
+give @a netherite_leggings[trim={pattern:wayfinder,material:redstone},custom_name='["",{"text":"Ultima-Hose","color":"gold"}]',lore=['["",{"text":"Dieser Gegenstand wurde von ","italic":false,"color":"yellow"},{"text":"Schnitter","italic":false,"color":"gold","underlined":true},{"text":" erstellt.","italic":false,"color":"yellow"}]'],rarity=epic,enchantment_glint_override=false,enchantments={levels:{blast_protection:255,fire_protection:255,mending:255,projectile_protection:255,protection:255,swift_sneak:255,thorns:255,unbreaking:255}},unbreakable={}]
 ```
 ### Ultima Stiefel
 ```
