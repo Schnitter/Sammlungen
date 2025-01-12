@@ -13,3 +13,7 @@ give @a netherite_chestplate[trim={pattern:wayfinder,material:redstone},custom_n
 ```
 give @a netherite_leggings[trim={pattern:wayfinder,material:redstone},custom_name='{"text":"Ultima-Hose","color":"#ffaa00"}',lore=['["",{"text":"Dieser Gegenstand wurde von ","italic":false},{"text":"Schnitter","italic":false,"underlined":true},{"text":" erstellt.","italic":false}]'],enchantment_glint_override=false,enchantments={levels:{blast_protection:255,fire_protection:255,mending:255,protection:255,thorns:255,unbreaking:255}},death_protection={},unbreakable={}]
 ```
+
+```
+give @a netherite_boots[trim={pattern:wayfinder,material:redstone},custom_name='{"text":"Ultima-Stiefel","color":"#ffaa00"}',lore=['["",{"text":"Dieser Gegenstand wurde von ","italic":false,"color":"yellow"},{"text":"Schnitter","italic":false,"color":"gold","underlined":true},{"text":" erstellt.","italic":false,"color":"yellow"}]'],enchantment_glint_override=false,enchantments={levels:{blast_protection:255,feather_falling:255,fire_protection:255,mending:1,projectile_protection:255,protection:255,soul_speed:1,swift_sneak:255,thorns:255,unbreaking:255}},unbreakable={}]
+```
