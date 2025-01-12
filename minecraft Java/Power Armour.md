@@ -8,3 +8,8 @@ give @p netherite_helmet[trim={pattern:wayfinder,material:redstone},custom_name=
 ```
 give @a netherite_chestplate[trim={pattern:wayfinder,material:redstone},custom_name='{"text":"Ultima-Brustplatte","color":"#ffaa00"}',lore=['["",{"text":"Dieser Gegenstand wurde von ","italic":false},{"text":"Schnitter","italic":false,"underlined":true},{"text":" erstellt.","italic":false}]'],enchantment_glint_override=false,enchantments={levels:{blast_protection:255,fire_protection:255,mending:255,protection:255,thorns:255,unbreaking:255}},unbreakable={show_in_tooltip:false}]
 ```
+
+### Ultima Hose
+```
+give @a netherite_leggings[trim={pattern:wayfinder,material:redstone},custom_name='{"text":"Ultima-Hose","color":"#ffaa00"}',lore=['["",{"text":"Dieser Gegenstand wurde von ","italic":false},{"text":"Schnitter","italic":false,"underlined":true},{"text":" erstellt.","italic":false}]'],enchantment_glint_override=false,enchantments={levels:{blast_protection:255,fire_protection:255,mending:255,protection:255,thorns:255,unbreaking:255}},death_protection={},unbreakable={}]
+```
