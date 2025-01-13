@@ -25,6 +25,12 @@ give @p shield[custom_name='{"text":"Ultima-Schild","color":"#ffaa00"}',lore=['[
 
 
 # Arbeitsmaterial
+
+### Ultima-Schaufel
+```
+give @p netherite_shovel[custom_name='{"text":"Ultima-Schaufel","color":"#ffaa00"}',lore=['["",{"text":"Dieser Gegenstand wurde von ","italic":false,"color":"yellow"},{"text":"Schnitter","italic":false,"underlined":true,"color":"gold"},{"text":" erstellt.","italic":false,"color":"yellow"}]'],rarity=epic,enchantments={levels:{efficiency:255,fortune:255,mending:1,sharpness:255,silk_touch:1,unbreaking:255}},unbreakable={}]
+```
+
 ### Ultima A Spizhacke (0.020)
 ```
 
