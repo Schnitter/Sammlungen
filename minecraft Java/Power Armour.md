@@ -49,7 +49,7 @@ give @p netherite_axe[custom_name='{"text":"Ultima-Axt","color":"#ffaa00"}',lore
 
 ### Ultima B Spizhacke (0.020)
 ```
-
+give @p netherite_pickaxe[custom_name='["",{"text":"Infinfity-Spitzhacke","italic":false}]',lore=['["",{"text":"Dieser Gegenstand wurde von ","italic":false,"color":"yellow"},{"text":"Schnitter","italic":false,"underlined":true,"color":"gold"},{"text":" erstellt.","italic":false,"color":"yellow"}]'],rarity=epic,enchantments={levels:{efficiency:20,mending:1,sharpness:255,silk_touch:1,unbreaking:3}},unbreakable={}]
 ```
 
 
