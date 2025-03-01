@@ -1,4 +1,4 @@
-In diesem EINFACH ERKLÄRT Video zeige ich euch wie ihr unter Windows 10 und Windows 11 installierte Programme (unter Apps & Features) verstecken könnt. Sodass diese nicht mehr dort aufgelistet werden. 
+In diesem Tutorial zeige ich euch wie ihr unter Windows 10 und Windows 11 installierte Programme (unter Apps & Features) verstecken könnt. Sodass diese nicht mehr dort aufgelistet werden. 
 Hierzu ist lediglich ein kleiner Eingriff in die Windows Registry (Registrierungsdatenbank ) mit "regedit.exe" nötig.
 
 
