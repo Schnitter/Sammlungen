@@ -3,7 +3,6 @@ Hierzu ist lediglich ein kleiner Eingriff in die Windows Registry (Registrierung
 
 
 
-▬ Tipps zum Nachlesen ▬▬▬
 
 ► Die Registry-Keys unter denen ihr die Uninstall-Informationen findet
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
