@@ -13,7 +13,6 @@ Hier installieren wir per Debian-Paketmanager das Paket locales. Sollte selbster
 Terminal window
 
 ```
-#! /bin/sh
 dpkg-reconfigure locales -plow
 ```
 
