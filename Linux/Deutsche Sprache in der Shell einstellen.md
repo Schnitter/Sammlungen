@@ -7,7 +7,6 @@ Die Shell in Linux ist ja bekanntlich auf Englisch. Dies kann man aber ganz einf
 Terminal window
 
 ```
-#! /bin/sh
 apt-get install locales
 ```
 Hier installieren wir per Debian-Paketmanager das Paket locales. Sollte selbsterklärend sein. Anschliessend rufen wir das Programm auf:
