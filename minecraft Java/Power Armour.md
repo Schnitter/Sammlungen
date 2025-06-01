@@ -20,7 +20,7 @@ give @p netherite_boots[trim={pattern:wayfinder,material:redstone},custom_name='
 # Waffen
 ### Ultima-Schild
 ```
-give @p shield[custom_name=[{"text":"Ultima Schild","italic":false,"color":"gold"}],lore=[[{"text":"Dieser Gegenstand wurde von ","italic":false,"color":"yellow"},{"text":"Schnitter","italic":false,"color":"gold"},{"text":" erstellt.","italic":false,"color":"yellow"}]],rarity=epic,enchantments={blast_protection:255,fire_protection:255,projectile_protection:255,protection:255,unbreaking:255},death_protection={},unbreakable={}]
+give @p shield[custom_name=[{"text":"Ultima Schild","italic":false,"color":"gold"}],lore=[[{"text":"Dieser Gegenstand wurde von ","italic":false,"color":"yellow"},{"text":"Schnitter","italic":false,"color":"gold"},{"text":" erstellt.","italic":false,"color":"yellow"}]],rarity=epic,enchantments={blast_protection:255,fire_protection:255,projectile_protection:255,protection:255,thorns:255,unbreaking:255},death_protection={},unbreakable={}]
 ```
 
 
