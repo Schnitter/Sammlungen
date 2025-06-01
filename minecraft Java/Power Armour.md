@@ -33,7 +33,7 @@ give @p netherite_shovel[custom_name=[{"text":"Ultima-Schaufel","italic":false,"
 
 ### Ultima-axt
 ```
-give @p netherite_axe[custom_name='{"text":"Ultima-Axt","color":"#ffaa00"}',lore=['["",{"text":"Dieser Gegenstand wurde von ","italic":false,"color":"yellow"},{"text":"Schnitter","italic":false,"underlined":true,"color":"gold"},{"text":" erstellt.","italic":false,"color":"yellow"}]'],enchantments={levels:{bane_of_arthropods:5,efficiency:5,fortune:255,sharpness:5,smite:5,unbreaking:255}},unbreakable={}]
+give @p netherite_axe[custom_name=[{"text":"Ultima-Axt","italic":false,"color":"gold"}],lore=[[{"text":"Dieser Gegenstand wurde von ","italic":false,"color":"yellow"},{"text":"Schnitter","italic":false,"underlined":true,"color":"gold"},{"text":" erstellt.","italic":false,"color":"yellow"}]],rarity=epic,enchantments={bane_of_arthropods:5,efficiency:5,fortune:255,sharpness:5,smite:5,unbreaking:255},unbreakable={}]
 ```
 
 ### Ultima A Spizhacke (0.020)
