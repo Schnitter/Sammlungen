@@ -9,6 +9,7 @@ Aufgrund der Zellenstruktur ist eine Excel-Tabelle grundsätzlich geeignet, um d
 
 Die entsprechenden Formatierungen können Sie manuell vornehmen. Einfacher geht es per Makro. Das folgende VBA-Makro legt eine neue Arbeitsmappe an und formatiert das erste Tabellenblatt in dieser Arbeitsmappe mit kleinen Karos:
 
+```
 Sub ErzeugeKariertesPapier()
 Dim Ecke As Integer
 With Workbooks.Add.Worksheets(1).Cells
@@ -23,6 +24,7 @@ With Workbooks.Add.Worksheets(1).Cells
  Next Ecke
 End With
 End Sub
+```
 
 Die folgende Abbildung zeigt wie die passende Excel-Tabelle aussieht. Sie entspricht optisch einer Seite mit Kästchen, wie sie im Mathematikunterricht verwendet wird.
 
