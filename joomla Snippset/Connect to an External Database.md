@@ -1,4 +1,4 @@
-###How to Connect to an External Database in Joomla with PHP
+### How to Connect to an External Database in Joomla with PHP
 
 Below is a PHP snippet allowing you to connect to an external database using the Joomla API.
 
@@ -31,4 +31,5 @@ $query
 $db->setQuery($query);
 
 $results = $db->loadObjectList();
+
 ```
