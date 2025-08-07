@@ -1,4 +1,4 @@
-###How to Check if the Current Page Is the Homepage in Joomla with PHP 
+### How to Check if the Current Page Is the Homepage in Joomla with PHP 
 
 Below you can find a PHP snippet that will allow you to detect whether we are browsing the home page.
 
@@ -14,4 +14,5 @@ if ($isHomePage)
 {
     echo 'This is the front page!';
 }
+
 ```
