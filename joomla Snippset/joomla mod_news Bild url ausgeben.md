@@ -5,13 +5,13 @@ Um in einem **Joomla-Override** für das **Modul "News"** (vermutlich mod_articl
 
 ### 1. Wo du das machst
 
-Overrides für das Modul mod_articles_news befinden sich typischerweise unter:
+Overrides für das Modul `mod_articles_news` befinden sich typischerweise unter:
 
 ```
 /templates/dein_template/html/mod_articles_news/
 ```
 
-Du kannst dort z. B. die Datei default.php überschreiben oder eine eigene Layout-Datei erstellen.
+Du kannst dort z. B. die Datei `default.php` überschreiben oder eine eigene Layout-Datei erstellen.
 <hr>
 ### 2. Zugriff auf die Bild-URL
 
@@ -21,7 +21,7 @@ In dem Modul erhältst du Artikelobjekte in einer Schleife, meistens so:
 <?php foreach ($list as $item) : ?>
 ```
 
-Jeder $item enthält Informationen zum Artikel, inkl. Bilder.
+Jeder `$item` enthält Informationen zum Artikel, inkl. Bilder.
 
 Bilddaten befinden sich in:
 ```
@@ -77,4 +77,5 @@ JUri::base() . $imageUrl
 Achte auf das HTML-Encoding bei der Ausgabe.
 
 Falls du benutzerdefinierte Felder für Bilder verwendest, musst du diese anders abfragen ($item->jcfields).
+
 
