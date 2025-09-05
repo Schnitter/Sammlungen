@@ -74,8 +74,8 @@ JUri::base() . $imageUrl
 ```
 
 ### 5. Tipps
-Achte auf das HTML-Encoding bei der Ausgabe.
+* Achte auf das HTML-Encoding bei der Ausgabe.
+* Falls du benutzerdefinierte Felder für Bilder verwendest, musst du diese anders abfragen (`$item->jcfields`).
 
-Falls du benutzerdefinierte Felder für Bilder verwendest, musst du diese anders abfragen ($item->jcfields).
 
 
