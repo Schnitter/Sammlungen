@@ -1,7 +1,7 @@
-## wie kann man im einem Joomla override im modul News die Bild url ermitteln?
+## wie kann man im einem **Joomla Override** im modul News die Bild url ermitteln?
 
 
-Um in einem Joomla-Override für das Modul "News" (vermutlich mod_articles_news) die Bild-URL eines Artikels zu ermitteln, musst du den Pfad zum Einleitungsbild (intro image) oder Vollbild (full article image) aus den Artikelparametern holen.
+Um in einem **Joomla-Override** für das **Modul "News"** (vermutlich mod_articles_news) die **Bild-URL** eines Artikels zu ermitteln, musst du den Pfad zum **Einleitungsbild** (`intro image`) oder **Vollbild** (`full article image`) aus den Artikelparametern holen.
 
 ### 1. Wo du das machst
 
@@ -77,3 +77,4 @@ JUri::base() . $imageUrl
 Achte auf das HTML-Encoding bei der Ausgabe.
 
 Falls du benutzerdefinierte Felder für Bilder verwendest, musst du diese anders abfragen ($item->jcfields).
+
