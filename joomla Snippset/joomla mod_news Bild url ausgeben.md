@@ -32,9 +32,7 @@ $item->images
 Das ist ein JSON-String, den du zuerst dekodieren musst:
 
 ```
-<?php
-$images = json_decode($item->images);
-?>
+<?php $images = json_decode($item->images); ?>
 ```
 
 Dann kannst du auf die Bild-URLs zugreifen:
@@ -76,6 +74,7 @@ JUri::base() . $imageUrl
 ### 5. Tipps
 * Achte auf das HTML-Encoding bei der Ausgabe.
 * Falls du benutzerdefinierte Felder für Bilder verwendest, musst du diese anders abfragen (`$item->jcfields`).
+
 
 
 
